@@ -4,6 +4,8 @@ A responsive **Before & After Image Comparison Slider** built using **HTML, CSS,
 
 ## 🌐 Live Demo
 
+ https://kousalya52.github.io/Image-Transition/
+ 
 ## 🚀 Features
 
 * Interactive image comparison effect

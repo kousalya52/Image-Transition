@@ -2,6 +2,8 @@
 
 A responsive **Before & After Image Comparison Slider** built using **HTML, CSS, and JavaScript**. Users can move the mouse across the image to reveal and compare two versions of an image interactively.
 
+## 🌐 Live Demo
+
 ## 🚀 Features
 
 * Interactive image comparison effect
@@ -16,16 +18,6 @@ A responsive **Before & After Image Comparison Slider** built using **HTML, CSS,
 * HTML5
 * CSS3
 * JavaScript
-
-## 📸 Demo Preview
-
-Move the slider across the image to compare the original image with the modified image.
-
-Add a screenshot or GIF here:
-
-```text
-screenshots/image-transition-demo.png
-```
 
 ## 📂 Project Structure
 
@@ -58,7 +50,7 @@ Image-Transition-Slider/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/image-transition-slider.git
+git clone https://github.com/kousalya52/image-transition-slider.git
 ```
 
 2. Open the project folder.
@@ -89,10 +81,13 @@ Contributions are welcome. Feel free to fork the repository and submit a pull re
 
 This project is licensed under the MIT License.
 
+## Screenshot
+
+
 ## 👩‍💻 Author
 
 **Kousalya M**
 
 Frontend Developer passionate about creating interactive web experiences.
 
-GitHub: https://github.com/ko
+GitHub: https://github.com/kousalya52

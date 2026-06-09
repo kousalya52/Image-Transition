@@ -85,6 +85,8 @@ This project is licensed under the MIT License.
 
 ## 📸 Screenshot
 
+<img width="1918" height="893" alt="image" src="https://github.com/user-attachments/assets/2a16ef24-80c7-43ea-9e92-287f4708584c" />
+
 
 ## 👩‍💻 Author
 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Tansition</title>
+</head>
+<body>
+    <div class="container">
+        <div class="img-box">
+            <img src="images/transparent.png" width="100%">
+            <div class="img-wrap">
+                <img src="images/original .png"  id="originalImg">
+            </div>
+            <span id="line">
+                <img src="images/arrow.png"  class="arrow">
+            </span>
+        </div>
+    </div>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f3fbff;
+        }
+        .img-box{
+            width: 60%;
+            margin: auto;
+            line-height: 0;
+            background-image: url(images/background.png);
+            overflow: hidden;
+            position: relative;
+        }
+        .img-wrap{
+            width: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+        span{
+            width: 1px;
+            height: 100%;
+            cursor:ew-resize;
+            background: #fff;
+            position: absolute;
+            top: 0;
+            left: 20px;
+        }
+        .arrow{
+            width: 40px;
+            position: absolute;
+            top: 50%;
+            margin-left: -20px;
+            margin-top: -20px;
+        }
+    </style>
+    <script>
+        var ImgBox = document.querySelector(".img-box");
+        var ImgWrap = document.querySelector(".img-wrap");
+        var originalImg = document.getElementById("originalImg");
+        var line = document.getElementById("line");
+
+       originalImg.style.width = ImgBox.offsetWidth + "px";
+
+        var leftSpace = ImgBox.offsetLeft;
+
+        ImgBox.onmousemove = function(e){
+            var boxWidth = (e.pageX - leftSpace) + "px";
+            ImgWrap.style.width = boxWidth;
+            line.style.left = boxWidth;
+        }
+
+    </script>
+</body>
+</html>
